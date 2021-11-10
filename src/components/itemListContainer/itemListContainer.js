@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import ItemList from "../itemList/itemList";
-import Tortas from "../itemList/products";
+import Tortas from "../../Assets/Productos/products";
 
 const ItemListContainer = () => {
     const [tortas, setTortas] = useState ([]);
@@ -26,8 +26,8 @@ const ItemListContainer = () => {
 
     return(
         <>
-        {tortas.length ? tortas.map((torta)=> (
-            <ItemList product = {torta} key= {torta.id} />))
+        {tortas.length
+        ? tortas.map((torta)=><ItemList product= {torta} key= {torta.id} />)
             : "Cargando ..."}
         </>
 
