@@ -10,13 +10,13 @@ const Tortas =[
       "name": "Chocotorta",
       "price": 3500,
       "id": 2,
-      "photo": "../img/cheesecake.jpeg"
+      "photo": "../img/chocotorta.jpeg"
     },
     {
       "name": "Cheesecake",
       "price": 3000,
       "id": 3,
-      "photo": "../img/chocotorta.jepg"
+      "photo": "../img/cheesecake.jpeg"
     }
   ]
 
