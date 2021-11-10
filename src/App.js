@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import ItemCount from './components/itemCount';
 import NavBar from './components/navBar';
+import ItemListContainer from './components/itemListContainer/itemListContainer';
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
       <NavBar></NavBar>
       <h2>MagiaCakes</h2>
       <ItemCount></ItemCount>
+      <h3>Productos Promocionales</h3>
+      <ItemListContainer className = "itemListContainer" />
     
     </div>
   )
